@@ -28,3 +28,5 @@ We present a comprehensive benchmark of the robustness and resilience of computa
 
 **\*** 12 healthy and 6 T2D samples  
 **\*\*** 6 healthy and 4 T2D samples
+
+All datasets in this repository are generated pseudo-bulk data based on publicly available single-cell RNA-seq (scRNA-seq) datasets.
