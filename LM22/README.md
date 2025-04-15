@@ -20,7 +20,7 @@ This directory contains simulated pseudo-bulk gene expression datasets based on 
 ---
 ## Dataset Origin
 
-- **Signature matrix**: LM22 (CIBERSORT)
+- **Signature matrix**: LM22 (CIBERSORTx)
 - **Tissue Type**: Human blood-derived immune cells
 - **Platform**: Affymetrix
 - **Number of genes**: ~11,845
