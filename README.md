@@ -34,6 +34,74 @@ All datasets in this repository are pseudo-bulk data generated from publicly ava
 **E-MTAB-5061** (ArrayExpress accession) and **syn18485175** (which requires access approval via [Synapse](https://www.synapse.org/Synapse:syn18485175)) are used as reference datasets for reference-based deconvolution methods in specific scenarios, but they are not used to generate pseudo-bulk data.
 
 # GSNMF tutorial
-GSNMF(Geometric structure guided non-negative matrix factorization model) is a reference-free deconvolution algorithm for cell type deconvolution of bulk RNA-seq samples. It is based on geometric structure-constrained non-negative matrix factorization. It was developed by Dr. Duan Chen, Dr. Shaoyu Li, and Dr. Xue Wang. The method is published in Foundations of data science: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10798655/.
+
+**GSNMF** (Geometric Structure-Guided Non-Negative Matrix Factorization) is a reference-free deconvolution algorithm designed for estimating cell type proportions in bulk RNA-seq samples. It leverages geometric structure constraints within the framework of non-negative matrix factorization (NMF). The method was developed by **Dr. Duan Chen**, **Dr. Shaoyu Li**, and **Dr. Xue Wang**, and is published in *Foundations of Data Science*: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10798655/
+
+---
+
+### Download the python code
+
+You can download the Python code from the `GSNMF/python` directory, which contains the following three main files:
+- `gsclustering2.py` – for identifying marker genes via clustering
+- `gsnmfRun2.py` – for performing deconvolution
+- `GeoConstrain.py` – for constrains in algorithm
+
+
+---
+
+### Getting started with GSNMF
+
+To begin using GSNMF, start with the `gsclustering2.py` file, which performs clustering on the input data to identify marker genes.
+
+
+```python
+k = 4  # Number of cell types
+nn = 100 # Number of marker genes to identify per cell type
+rawdata, geneid_raw = loadmydata("mixture", "c:/user") # Load your mixture data
+```
+
+---
+
+### Deconvolution
+
+Once the initial setup is complete, then you can run `gsnmfrun.py` to perform deconvolution on the mixture data. The resulting cell type proportions will be saved to an output file using the following code:
+
+```python
+np.savetxt("prop_output.txt", P, fmt='%.5f')
+```
+
+---
+
+
+### Example
+
+Mixture Dataset: `GSE81608/mix_t2d_m.txt`  
+Ground Truth Proportion: `GSE81608/prop_t2d_m.txt`
+
+To begin, run the `gsclustering2.py` script:
+
+```python
+k = 4       # Number of cell types
+nn = 100    # Number of marker genes per cell type
+rawdata, geneid_raw = loadmydata("mix_t2d_m", "c:/user/GSE81608") # Load your mixture data
+```
+
+Then, use `gsnmfrun.py` to estimate the proportions for the mixture dataset `mix_t2d_m.txt` and save as `t2d_m_output_prop.txt`:
+
+```python
+np.savetxt("t2d_m_output_prop.txt", P, fmt='%.5f')
+```
+
+Compare the estimated proportion (`t2d_m_output_prop.txt`) with the ground truth proportion (`GSE81608/prop_t2d_m.txt`). The figure and results below are generated using R studio:
+
+
+| Cor.beta     | Cor.alpha    | Cor.delta    | Cor.gamma    | overall.cor  | RMSE     | mAD     |
+|----------|----------|----------|----------|----------|----------|---------|
+| 0.96780  | 0.98470  | 0.48940  | 0.91490  | 0.94820  | 0.10640  | 0.06967 |
+
+<img src="https://github.com/user-attachments/assets/de4772c2-ccf8-4a66-b10f-bde253f4a33f" alt="Rplot" width="622" height="523">
+
+
+
 
 
