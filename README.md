@@ -29,4 +29,6 @@ We present a comprehensive benchmark of the robustness and resilience of computa
 **\*** 12 healthy and 6 T2D samples  
 **\*\*** 6 healthy and 4 T2D samples
 
-All datasets in this repository are generated pseudo-bulk data based on publicly available single-cell RNA-seq (scRNA-seq) datasets.
+All datasets in this repository are pseudo-bulk data generated from publicly available single-cell RNA-seq (scRNA-seq) datasets.
+
+**E-MTAB-5061**  and **syn18485175**  are used as reference datasets for reference-based deconvolution methods in specific scenarios, but they are not used to generate pseudo-bulk data.
