@@ -1,5 +1,9 @@
 # Benchmarking and Evaluation of Deconvolution Algorithms
-We present a comprehensive benchmark of the robustness and resilience of computational deconvolution methods for estimating cell type proportions in bulk tissue samples. This study focuses on comparing reference-based and reference-free approaches.  Below are all cell-level gene expression datasets used in this study.
+We present a comprehensive benchmark of the robustness and resilience of computational deconvolution methods for estimating cell type proportions in bulk tissue samples. This study focuses on comparing reference-based and reference-free approaches.  
+
+## Cell level gene expression datasets
+
+Below are all cell-level gene expression datasets used in this study.
 
 
 | Data           | GSE19830                  | LM22                       | GSE81608                 | GSE67835                  |
@@ -32,6 +36,23 @@ We present a comprehensive benchmark of the robustness and resilience of computa
 All datasets in this repository are pseudo-bulk data generated from publicly available single-cell RNA-seq (scRNA-seq) datasets.
 
 **E-MTAB-5061** (ArrayExpress accession) and **syn18485175** (which requires access approval via [Synapse](https://www.synapse.org/Synapse:syn18485175)) are used as reference datasets for reference-based deconvolution methods in specific scenarios, but they are not used to generate pseudo-bulk data.
+
+## Simulation Scenarios
+
+The following scenarios were used to generate pseudo-bulk datasets by introducing different perturbations to the original expression levels:
+
+| Scenario | Description |
+|----------|-------------|
+| **r1** | Mean shifting: Expression levels were augmented by adding **10%** of the average expression level for each cell type. |
+| **r2** | Mean shifting: Expression levels were augmented by adding **30%** of the average expression level for each cell type. |
+| **r3** | Mean shifting: Expression levels were augmented by adding **50%** of the average expression level for each cell type. |
+| **r4** | Mean shifting: Expression levels were augmented by adding **70%** of the average expression level for each cell type. |
+| **r5** | Truncation: The top **10%** of expressed cells for each cell type were selectively removed before generating pseudo-bulk tissue data. |
+| **r6** | Truncation: The bottom **10%** of expressed cells for each cell type were selectively removed before generating pseudo-bulk tissue data. |
+| **r7** | Factoring: Expression levels were scaled using a factor of **1.2** to allow downward adjustments. |
+| **r8** | Factoring: Expression levels were scaled using a factor of **1.8** to allow downward adjustments. |
+| **r9** | Factoring: Expression levels were scaled using a factor of **0.8** to allow upward adjustments. |
+| **r10** | Factoring: Expression levels were scaled using a factor of **0.4** to allow upward adjustments. |
 
 # GSNMF tutorial
 
