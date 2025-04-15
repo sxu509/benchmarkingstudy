@@ -25,4 +25,5 @@ This directory contains simulated pseudo-bulk gene expression datasets based on 
 - **Platform**: Affymetrix
 - **Number of genes**: ~11,845
 - **Number of cell types**: 22
+- **Reference**: Newman *et al.* (2015)
 
