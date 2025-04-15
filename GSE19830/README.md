@@ -12,8 +12,9 @@ This folder contains simulated and labeled gene expression mixture data derived 
 | `mix_lbl_l.txt`                          | Simulated mixtures with **large** variation level                           |
 | `mix_lbl_m_rs1.txt` – `mix_lbl_m_rs10.txt` | 10 alternative scenarios based on the **medium** variation level, used to assess method robustness and resilience |
 | `prop_lbl_s.txt`                         | Ground-truth cell type proportions corresponding to `mix_lbl_s.txt`         |
-| `prop_lbl_m.txt`                         | Ground-truth cell type proportions corresponding to `mix_lbl_m.txt` and   `mix_lbl_m_rs1.txt` – `mix_lbl_m_rs10.txt`   |
 | `prop_lbl_l.txt`                         | Ground-truth cell type proportions corresponding to `mix_lbl_l.txt`         |
+| `prop_lbl_m.txt`                         | Ground-truth cell type proportions corresponding to both `mix_lbl_m.txt` and `mix_lbl_m_rs1.txt` – `mix_lbl_m_rs10.txt` |
+
 
 ---
 ## Dataset Origin
@@ -25,7 +26,13 @@ This folder contains simulated and labeled gene expression mixture data derived 
 - **Cell Types:** 3
 - **Use:** Simulated pseudo-bulk gene expression mixtures based on real single-cell RNA-seq references
 
-## Notes
+---
 
-- All files are in `.txt` format with gene expression values.
-- The `rs` versions are used to test the consistency and robustness of deconvolution methods across random replicates.
+## Purpose
+
+These datasets are intended for:
+- Evaluating the accuracy and robustness of deconvolution methods
+- Testing sensitivity to noise and variation
+- Benchmarking across repeated simulation replicates
+
+---
