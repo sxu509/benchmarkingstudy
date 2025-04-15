@@ -24,5 +24,5 @@ This folder contains simulated and labeled gene expression mixture data derived 
 - **Platform:** Affymetrix
 - **Genes:** ~13,841
 - **Cell Types:** 3
-- **Use:** Simulated pseudo-bulk gene expression mixtures based on real single-cell RNA-seq references
+- **Reference:** Shen-Orr *et al.* (2010)
 
