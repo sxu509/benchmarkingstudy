@@ -13,9 +13,9 @@ These datasets are designed to benchmark deconvolution methods under realistic a
 | `mix_lm22_pbmc_s_f.txt`                        | Simulated mixtures with **small** variation level using scRNA-seq from PBMC8K |
 | `mix_lm22_pbmc_m_f.txt`                        | Simulated mixtures with **medium** variation level using scRNA-seq from PBMC8K |
 | `mix_lm22_pbmc_l_f.txt`                        | Simulated mixtures with **large** variation level using scRNA-seq from PBMC8K |
-| `lm22_pbmc_real_prop_s.txt`                    | Ground-truth cell type proportions for `mix_lm22_pbmc_s_f.txt`              |
-| `lm22_pbmc_real_prop_m.txt`                    | Ground-truth cell type proportions for `mix_lm22_pbmc_m_f.txt`              |
-| `lm22_pbmc_real_prop_l.txt`                    | Ground-truth cell type proportions for `mix_lm22_pbmc_l_f.txt`              |
+| `lm22_pbmc_real_prop_s.txt`                    | Ground-truth cell type proportions for `mix_lm22_pbmc_s_f.txt`  and   `mix_lm22_pbmc_scdesign_s_f.txt`         |
+| `lm22_pbmc_real_prop_m.txt`                    | Ground-truth cell type proportions for `mix_lm22_pbmc_m_f.txt`   and   `mix_lm22_pbmc_scdesign_m_f.txt`             |
+| `lm22_pbmc_real_prop_l.txt`                    | Ground-truth cell type proportions for `mix_lm22_pbmc_l_f.txt`   and   `mix_lm22_pbmc_scdesign_l_f.txt`             |
 | `mix_lm22_pbmc_scdesign_s_f.txt`               | Simulated mixtures from synthetic samples via **scDesign** under small variation using scRNA-seq from PBMC8K |
 | `mix_lm22_pbmc_scdesign_m_f.txt`               | Simulated mixtures from synthetic samples via **scDesign** under medium variation using scRNA-seq from PBMC8K |
 | `mix_lm22_pbmc_scdesign_l_f.txt`               | Simulated mixtures from synthetic samples via **scDesign** under large variation using scRNA-seq from PBMC8K |
