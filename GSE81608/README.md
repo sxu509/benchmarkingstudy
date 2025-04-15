@@ -16,9 +16,9 @@ This folder contains simulated and labeled gene expression mixture data derived 
 | `prop_scdesign_s_real.txt`                         | Ground-truth cell type proportions corresponding to `mix_scdesign_s_50.txt`         |
 | `prop_scdesign_l_real.txt`                         | Ground-truth cell type proportions corresponding to `mix_scdesign_l_50.txt`         |
 | `prop_scdesign_m_real.txt`                         | Ground-truth cell type proportions corresponding to `mix_scdesign_m_50.txt`  |
-| `mix_scdesign_s_50.txt`                         | Simulated mixtures from synthetic samples via scDesign under small variation using scRNA-seq from GSE81608         |
-| `mix_scdesign_l_50.txt`                         | Simulated mixtures from synthetic samples via scDesign under large variation using scRNA-seq from GSE81608         |
-| `mix_scdesign_m_50.txt`                         | 	Simulated mixtures from synthetic samples via scDesign under medium variation using scRNA-seq from GSE81608  |
+| `mix_scdesign_s_50.txt`                         | Simulated mixtures from synthetic samples via scDesign under **small** variation using scRNA-seq from GSE81608         |
+| `mix_scdesign_l_50.txt`                         | Simulated mixtures from synthetic samples via scDesign under **large** variation using scRNA-seq from GSE81608         |
+| `mix_scdesign_m_50.txt`                         | 	Simulated mixtures from synthetic samples via scDesign under **medium** variation using scRNA-seq from GSE81608  |
 
 ---
 
