@@ -31,4 +31,7 @@ We present a comprehensive benchmark of the robustness and resilience of computa
 
 All datasets in this repository are pseudo-bulk data generated from publicly available single-cell RNA-seq (scRNA-seq) datasets.
 
-**E-MTAB-5061** (Accession numbers for ArrayExpress) and **syn18485175** (https://www.synapse.org/Synapse:syn18485175)  are used as reference datasets for reference-based deconvolution methods in specific scenarios, but they are not used to generate pseudo-bulk data.
+All datasets in this repository are pseudo-bulk data generated from publicly available single-cell RNA-seq (scRNA-seq) datasets.
+
+**E-MTAB-5061** (ArrayExpress accession) and **syn18485175** (which requires access approval via [Synapse](https://www.synapse.org/Synapse:syn18485175)) are used as reference datasets for reference-based deconvolution methods in specific scenarios, but they are not used to generate pseudo-bulk data.
+
