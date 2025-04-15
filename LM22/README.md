@@ -25,14 +25,4 @@ This directory contains simulated pseudo-bulk gene expression datasets based on 
 - **Platform**: Affymetrix
 - **Number of genes**: ~11,845
 - **Number of cell types**: 22
-- 
----
 
-## Purpose
-
-These datasets are used to:
-- Benchmark deconvolution methods under varied signal complexity
-- Evaluate consistency across repeated simulation runs
-- Compare robustness under different noise/variation levels
-
----
