@@ -31,7 +31,9 @@ We present a comprehensive benchmark of the robustness and resilience of computa
 
 All datasets in this repository are pseudo-bulk data generated from publicly available single-cell RNA-seq (scRNA-seq) datasets.
 
-All datasets in this repository are pseudo-bulk data generated from publicly available single-cell RNA-seq (scRNA-seq) datasets.
-
 **E-MTAB-5061** (ArrayExpress accession) and **syn18485175** (which requires access approval via [Synapse](https://www.synapse.org/Synapse:syn18485175)) are used as reference datasets for reference-based deconvolution methods in specific scenarios, but they are not used to generate pseudo-bulk data.
+
+# GSNMF tutorial
+GSNMF(Geometric structure guided non-negative matrix factorization model) is a reference-free deconvolution algorithm for cell type deconvolution of bulk RNA-seq samples. It is based on geometric structure-constrained non-negative matrix factorization. It was developed by Dr. Duan Chen, Dr. Shaoyu Li, and Dr. Xue Wang. The method is published in Foundations of data science: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10798655/.
+
 
