@@ -26,13 +26,3 @@ This folder contains simulated and labeled gene expression mixture data derived 
 - **Cell Types:** 3
 - **Use:** Simulated pseudo-bulk gene expression mixtures based on real single-cell RNA-seq references
 
----
-
-## Purpose
-
-These datasets are intended for:
-- Evaluating the accuracy and robustness of deconvolution methods
-- Testing sensitivity to noise and variation
-- Benchmarking across repeated simulation replicates
-
----
