@@ -96,8 +96,8 @@ np.savetxt("prop_output.txt", P, fmt='%.5f')
 
 ### Example
 
-Mixture Dataset: `GSE81608/mix_t2d_m.txt`  
-Ground Truth Proportion: `GSE81608/prop_t2d_m.txt`
+Mixture Dataset: `Dataset/GSE81608/mix_t2d_m.txt`  
+Ground Truth Proportion: `Dataset/GSE81608/prop_t2d_m.txt`
 
 To begin, run the `gsclustering2.py` script:
 
