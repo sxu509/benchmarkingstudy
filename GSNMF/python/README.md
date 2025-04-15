@@ -1,1 +1,2 @@
+**GSNMF** (Geometric Structure-Guided Non-Negative Matrix Factorization) is a reference-free deconvolution algorithm designed for estimating cell type proportions in bulk RNA-seq samples. It leverages geometric structure constraints within the framework of non-negative matrix factorization (NMF). The method was developed by **Dr. Duan Chen**, **Dr. Shaoyu Li**, and **Dr. Xue Wang**, and is published in *Foundations of Data Science*: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10798655/
 
