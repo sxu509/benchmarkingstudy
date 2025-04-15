@@ -1,6 +1,6 @@
 # LM22 Simulated Benchmarking Data
 
-This directory contains simulated pseudo-bulk gene expression datasets based on the **LM22 Source GEPs**, commonly used in immune deconvolution benchmarking. These files are intended for evaluating the performance of deconvolution algorithms under varying noise conditions and repeated simulations.
+This directory contains simulated pseudo-bulk gene expression datasets based on the **LM22 Source GEPs**. These datasets are used for benchmarking deconvolution methods in bulk RNA-seq analysis.
 
 ## File Descriptions
 
