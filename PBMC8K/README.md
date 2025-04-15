@@ -1,7 +1,7 @@
 
 # PBMC8K Dataset Collection
 
-This folder contains simulated gene expression mixtures based on real single-cell RNA-seq data from the **PBMC8K** dataset, using the **LM22 immune cell signature matrix** as the reference for reference-based deconvolution methods. It includes both simulations guided by real cell-type proportions and synthetic simulations generated using **scDesign**.
+This folder contains simulated gene expression mixtures based on real single-cell RNA-seq data from the **PBMC8K** dataset, using the **LM22 Source GEPs** as the reference for reference-based deconvolution methods. It includes both simulations guided by real cell-type proportions and synthetic simulations generated using **scDesign**.
 
 These datasets are designed to benchmark deconvolution methods under realistic and controlled conditions using peripheral blood mononuclear cells (PBMCs).
 
