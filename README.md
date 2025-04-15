@@ -97,7 +97,7 @@ Compare the estimated proportion (`t2d_m_output_prop.txt`) with the ground truth
 
 | Cor.beta     | Cor.alpha    | Cor.delta    | Cor.gamma    | overall.cor  | RMSE     | mAD     |
 |----------|----------|----------|----------|----------|----------|---------|
-| 0.96780  | 0.98470  | 0.48940  | 0.91490  | 0.94820  | 0.10640  | 0.06967 |
+| 0.96780  | 0.98470  | 0.48940  | 0.91490  | 0.94820  | 0.10653  | 0.06967 |
 
 <img src="https://github.com/user-attachments/assets/de4772c2-ccf8-4a66-b10f-bde253f4a33f" alt="Rplot" width="622" height="523">
 
