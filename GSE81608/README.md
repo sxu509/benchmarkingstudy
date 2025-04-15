@@ -26,5 +26,3 @@ This folder contains simulated and labeled gene expression mixture data derived 
 - **Cell Types Used:** 4
 - **Subjects:** 18
 - **Reference:** Xin *et al.* (2016)
-
----
