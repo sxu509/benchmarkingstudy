@@ -13,9 +13,9 @@ This folder contains simulated and labeled gene expression mixture data derived 
 | `prop_hb_s.txt`                         | Ground-truth cell type proportions corresponding to `mix_hb_marker_s.txt`  and `mix_scdesign_s_ref.txt`        |
 | `prop_hb_l.txt`                         | Ground-truth cell type proportions corresponding to `mix_hb_marker_l.txt`  and `mix_scdesign_l_ref.txt`        |
 | `prop_hb_m.txt`                         | Ground-truth cell type proportions corresponding to both `mix_hb_marker_m.txt`, `mix_scdesign_m_ref.txt` and `mix_hb_marker_rs1.txt` – `mix_hb_marker_rs10.txt` |
-| `mix_scdesign_s_ref.txt`                         | Simulated mixtures from synthetic samples via scDesign under **small** variation using scRNA-seq from GSE67835         |
-| `mix_scdesign_l_ref.txt`                         | Simulated mixtures from synthetic samples via scDesign under **large** variation using scRNA-seq from GSE67835         |
-| `mix_scdesign_m_ref.txt`                         | 	Simulated mixtures from synthetic samples via scDesign under **medium** variation using scRNA-seq from GSE67835  |
+| `mix_scdesign_s_ref.txt`                         | Simulated mixtures from synthetic samples via **scDesign** under **small** variation using scRNA-seq from GSE67835         |
+| `mix_scdesign_l_ref.txt`                         | Simulated mixtures from synthetic samples via **scDesign** under **large** variation using scRNA-seq from GSE67835         |
+| `mix_scdesign_m_ref.txt`                         | 	Simulated mixtures from synthetic samples via **scDesign** under **medium** variation using scRNA-seq from GSE67835  |
 
 ---
 
