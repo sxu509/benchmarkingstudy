@@ -20,7 +20,24 @@ This folder contains simulated and labeled gene expression mixture data derived 
 | `mix_scdesign_l_50.txt`                         | Simulated mixtures from synthetic samples via scDesign under **large** variation using scRNA-seq from GSE81608         |
 | `mix_scdesign_m_50.txt`                         | 	Simulated mixtures from synthetic samples via scDesign under **medium** variation using scRNA-seq from GSE81608  |
 
----
+
+## Scenarios
+
+The following scenarios were used to generate pseudo-bulk datasets by introducing different perturbations to the original expression levels:
+
+| Scenario | Description |
+|----------|-------------|
+| **r1** | Mean shifting: Expression levels were augmented by adding **10%** of the average expression level for each cell type. |
+| **r2** | Mean shifting: Expression levels were augmented by adding **30%** of the average expression level for each cell type. |
+| **r3** | Mean shifting: Expression levels were augmented by adding **50%** of the average expression level for each cell type. |
+| **r4** | Mean shifting: Expression levels were augmented by adding **70%** of the average expression level for each cell type. |
+| **r5** | Truncation: The top **10%** of expressed cells for each cell type were selectively removed before generating pseudo-bulk tissue data. |
+| **r6** | Truncation: The bottom **10%** of expressed cells for each cell type were selectively removed before generating pseudo-bulk tissue data. |
+| **r7** | Factoring: Expression levels were scaled using a factor of **1.2** to allow downward adjustments. |
+| **r8** | Factoring: Expression levels were scaled using a factor of **1.8** to allow downward adjustments. |
+| **r9** | Factoring: Expression levels were scaled using a factor of **0.8** to allow upward adjustments. |
+| **r10** | Factoring: Expression levels were scaled using a factor of **0.4** to allow upward adjustments. |
+
 
 ## Dataset Origin
 
