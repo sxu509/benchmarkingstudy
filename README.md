@@ -33,26 +33,9 @@ Below are all cell-level gene expression datasets used in this study.
 **\*** 12 healthy and 6 T2D samples  
 **\*\*** 6 healthy and 4 T2D samples
 
-All datasets in this repository are pseudo-bulk data generated from publicly available single-cell RNA-seq (scRNA-seq) datasets.
+All datasets in this repository are pseudo-bulk data generated from publicly available cell level gene expression datasets.
 
-**E-MTAB-5061** (ArrayExpress accession) and **syn18485175** (which requires access approval via [Synapse](https://www.synapse.org/Synapse:syn18485175)) are used as reference datasets for reference-based deconvolution methods in specific scenarios, but they are not used to generate pseudo-bulk data.
-
-## Simulation Scenarios
-
-The following scenarios were used to generate pseudo-bulk datasets by introducing different perturbations to the original expression levels:
-
-| Scenario | Description |
-|----------|-------------|
-| **r1** | Mean shifting: Expression levels were augmented by adding **10%** of the average expression level for each cell type. |
-| **r2** | Mean shifting: Expression levels were augmented by adding **30%** of the average expression level for each cell type. |
-| **r3** | Mean shifting: Expression levels were augmented by adding **50%** of the average expression level for each cell type. |
-| **r4** | Mean shifting: Expression levels were augmented by adding **70%** of the average expression level for each cell type. |
-| **r5** | Truncation: The top **10%** of expressed cells for each cell type were selectively removed before generating pseudo-bulk tissue data. |
-| **r6** | Truncation: The bottom **10%** of expressed cells for each cell type were selectively removed before generating pseudo-bulk tissue data. |
-| **r7** | Factoring: Expression levels were scaled using a factor of **1.2** to allow downward adjustments. |
-| **r8** | Factoring: Expression levels were scaled using a factor of **1.8** to allow downward adjustments. |
-| **r9** | Factoring: Expression levels were scaled using a factor of **0.8** to allow upward adjustments. |
-| **r10** | Factoring: Expression levels were scaled using a factor of **0.4** to allow upward adjustments. |
+**E-MTAB-5061** and **syn18485175** (which requires access approval via [Synapse](https://www.synapse.org/Synapse:syn18485175))  were used as reference datasets for reference-based deconvolution methods in specific scenarios, and they were not used to generate pseudo-bulk data.
 
 # GSNMF tutorial
 
