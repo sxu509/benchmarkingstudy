@@ -1,5 +1,7 @@
 # Benchmarking and Evaluation of Deconvolution Algorithms
-We present a comprehensive benchmark of the robustness and resilience of computational deconvolution methods for estimating cell type proportions in bulk tissue samples. This study focuses on comparing reference-based and reference-free approaches.  
+We present a comprehensive benchmark assessing the robustness and resilience of computational deconvolution methods for estimating cell-type proportions from bulk RNA-seq data. This study systematically compares reference-based and reference-free approaches across diverse simulation and perturbation settings, providing insights into their performance, stability, and failure modes.
+
+Xu, S., Chen, D., Wang, X., Li, S. (2025). Robustness and resilience of computational deconvolution methods for bulk RNA sequencing data. *Briefings in Bioinformatics*, 26(3), bbaf264. https://doi.org/10.1093/bib/bbaf264}{doi:10.1093/bib/bbaf264
 
 ## Cell level gene expression datasets
 
@@ -39,7 +41,10 @@ All datasets in this repository are pseudo-bulk data generated from publicly ava
 
 # GSNMF tutorial
 
-**GSNMF** (Geometric Structure-Guided Non-Negative Matrix Factorization) is a reference-free deconvolution algorithm designed for estimating cell type proportions in bulk RNA-seq samples. It leverages geometric structure constraints within the framework of non-negative matrix factorization (NMF). The method was developed by **Dr. Duan Chen**, **Dr. Shaoyu Li**, and **Dr. Xue Wang**, and is published in *Foundations of Data Science*: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10798655/
+**GSNMF** (Geometric Structure–Guided Non-Negative Matrix Factorization) is a reference-free deconvolution algorithm for estimating cell-type proportions from bulk RNA-seq data. It incorporates geometric structure constraints within the non-negative matrix factorization (NMF) framework to enable robust and identifiable deconvolution. The method was developed by Dr. Duan Chen, Dr. Shaoyu Li, and Dr. Xue Wang, and was originally published in *Foundations of Data Science*: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10798655/. 
+
+The updated version is described in: Li, S., Xu, S., Wang, X., Ertekin-Taner, N., Chen, D. (2025). An augmented GSNMF model for complete deconvolution of bulk RNA-seq data. *Mathematical Biosciences and Engineering*, 22(4), 988--1018. https://pmc.ncbi.nlm.nih.gov/articles/PMC12043048/
+
 
 ---
 
