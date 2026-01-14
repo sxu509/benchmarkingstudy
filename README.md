@@ -1,7 +1,7 @@
 # Benchmarking and Evaluation of Deconvolution Algorithms
 We present a comprehensive benchmark assessing the robustness and resilience of computational deconvolution methods for estimating cell-type proportions from bulk RNA-seq data. This study systematically compares reference-based and reference-free approaches across diverse simulation and perturbation settings, providing insights into their performance, stability, and failure modes.
 
-Xu, S., Chen, D., Wang, X., Li, S. (2025). Robustness and resilience of computational deconvolution methods for bulk RNA sequencing data. *Briefings in Bioinformatics*, 26(3), bbaf264. https://doi.org/10.1093/bib/bbaf264}{doi:10.1093/bib/bbaf264
+Xu, S., Chen, D., Wang, X., Li, S. (2025). Robustness and resilience of computational deconvolution methods for bulk RNA sequencing data. *Briefings in Bioinformatics*, 26(3), bbaf264. [https://doi.org/10.1093/bib/bbaf264}{doi:10.1093/bib/bbaf264](https://pmc.ncbi.nlm.nih.gov/articles/PMC12159287/)
 
 ## Cell level gene expression datasets
 
